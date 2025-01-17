@@ -124,3 +124,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 660px) {
+  #overlay #newImage {
+    width: 50rem;
+    height: 50rem;
+  }
+}
+@media (max-width: 550px) {
+  #overlay #newImage {
+    width: 40rem;
+    height: 40rem;
+  }
+}
